@@ -20,7 +20,7 @@ spec:
     spec:
       containers:
       - name: devops-psu-server
-        image: devops11:v1
+        image: annakoval/devops11:v1
         imagePullPolicy: IfNotPresent
         ports:
         - containerPort: 8000
